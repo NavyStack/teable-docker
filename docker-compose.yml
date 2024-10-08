@@ -62,7 +62,7 @@ services:
       retries: 3
 
   teable-cache:
-    image: redis:7.2.4
+    image: redis:7.4.1
     restart: always
     volumes:
       - teable-cache:/data:rw
