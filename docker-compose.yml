@@ -41,7 +41,7 @@ services:
       - teable-network
 
   teable-db:
-    image: postgres:15.4
+    image: postgres:17.2
     restart: always
     volumes:
       - teable-db:/var/lib/postgresql/data:rw
